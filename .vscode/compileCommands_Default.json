@@ -1,0 +1,106 @@
+[
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaiders.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaiders.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaiders.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersProjectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\CryptRaidersProjectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\TP_PickUpComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\TP_PickUpComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\TP_WeaponComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\Source\\CryptRaiders\\TP_WeaponComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\andre\\OneDrive\\Desktop\\UnrealGames\\CryptRaiders\\.vscode\\compileCommands_Default\\CryptRaiders.261.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.2\\Engine\\Source"
+	}
+]
