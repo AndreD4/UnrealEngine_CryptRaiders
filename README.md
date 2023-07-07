@@ -8,7 +8,7 @@ Make a "Mover" component for the doors.
 
 Make a "Grabber" component for the player.
 
-Call the Grabber funtionality from Blueprint.
+Call the Grabber functionality from Blueprint.
 
 Create a "Pressure Plate" component.
 
@@ -26,6 +26,6 @@ Create a "Pressure Plate" component.
 
 *Line Tracing and Collisions.
 
-While, For Loops and Arrays.
+*While, For Loops and Arrays.
 
-Calling C++ functions from Blueprint.
+*Calling C++ functions from Blueprint.
