@@ -28,7 +28,8 @@ void UGrabber::BeginPlay()
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+  FRotator MyRotation = GetComponentRotation();
+  FString RotationString = MyRotation.ToCompactString();
+	UE_LOG(LogTemp, Display, TEXT("Grabber Rotation: %s"), *RotationString);
 }
 
