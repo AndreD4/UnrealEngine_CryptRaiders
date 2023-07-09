@@ -32,5 +32,7 @@ private:
 
   UPROPERTY(EditAnywhere)
   bool ShouldMove = false;
+
+  FVector OriginalLocation;
 		
 };
