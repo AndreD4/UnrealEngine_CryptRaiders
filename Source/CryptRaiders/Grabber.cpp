@@ -26,6 +26,11 @@ void UGrabber::BeginPlay()
 	
 }
 
+void UGrabber::Release()
+{
+    UE_LOG(LogTemp, Display, TEXT("Released Grabber"));
+}
+
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
@@ -58,5 +63,13 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
       UE_LOG(LogTemp, Display, TEXT("No Actor hit"));
     }
 }
+
+
+
+
+
+
+
+
 
 

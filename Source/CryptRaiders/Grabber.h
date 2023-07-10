@@ -11,6 +11,11 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class CRYPTRAIDERS_API UGrabber : public USceneComponent
 {
 	GENERATED_BODY()
+  UFUNCTION(BlueprintCallable)
+    void Release();
+ 
+  UFUNCTION(BlueprintCallable)
+    void Grab();
 
 public:	
 	// Sets default values for this component's properties
