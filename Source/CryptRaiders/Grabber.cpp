@@ -26,10 +26,7 @@ void UGrabber::BeginPlay()
 	
 }
 
-void UGrabber::Release()
-{
-    UE_LOG(LogTemp, Display, TEXT("Released Grabber"));
-}
+
 
 
 // Called every frame
@@ -38,7 +35,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
   
 
-  FVector Start = GetComponentLocation();
+  
+}
+
+void UGrabber::Release()
+{
+    FVector Start = GetComponentLocation();
   FVector End = Start + GetForwardVector() * MaxGrabDistance;
   DrawDebugLine(GetWorld(), Start, End, FColor::Red);
 
@@ -64,10 +66,15 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
     }
 }
 
+void UGrabber::Grab()
+{
+  UE_LOG(LogTemp, Display, TEXT("Grab"));
+}
 
 
 
 
+ 
 
 
 

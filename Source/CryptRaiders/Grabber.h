@@ -11,11 +11,7 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class CRYPTRAIDERS_API UGrabber : public USceneComponent
 {
 	GENERATED_BODY()
-  UFUNCTION(BlueprintCallable)
-    void Release();
- 
-  UFUNCTION(BlueprintCallable)
-    void Grab();
+  
 
 public:	
 	// Sets default values for this component's properties
@@ -28,6 +24,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+  
+  UFUNCTION(BlueprintCallable)
+    void Grab();
+  
+  UFUNCTION(BlueprintCallable)
+    void Release();
+ 
+  
 
 private:
 UPROPERTY(EditAnywhere)
