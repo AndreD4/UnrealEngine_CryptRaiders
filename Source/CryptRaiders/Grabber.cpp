@@ -47,6 +47,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
     ECC_GameTraceChannel2,
     Sphere
     );
+
+    if (HasHit)
+    {
+        AActor* HitActor = HitResult.GetActor();
+        UE_LOG(LogTemp, Display, TEXT("Hit Actor: %s"), *HitActor->GetActorNameOrLabel());
+    }
 }
 
 
