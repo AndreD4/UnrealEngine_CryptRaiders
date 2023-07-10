@@ -39,11 +39,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
   float Damage = 5;
   PrintDamage(Damage); 
-  
+  UE_LOG(LogTemp, Display, TEXT("Original Damage: %f"), Damage);
 }
 
 void UGrabber::PrintDamage(float& Damage)
-{
+{ 
+    Damage = 2;
     UE_LOG(LogTemp, Display, TEXT("Damage: %f"), Damage);
 }
 
