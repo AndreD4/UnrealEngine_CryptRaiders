@@ -83,7 +83,7 @@ void UGrabber::Grab()
           HitResult.GetComponent(),
           NAME_None,
           HitResult.ImpactPoint,
-          HitResult.GetComponent()->GetComponentRotation()
+          GetComponentRotation()
         );
     }
 }
