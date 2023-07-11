@@ -101,7 +101,7 @@ void UGrabber::Release()
     }
 }
 
-UPhysicsHandleComponent* UGrabber::GetPhysicsHandle() const
+   UPhysicsHandleComponent* UGrabber::GetPhysicsHandle() const
 {
    UPhysicsHandleComponent* Result = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
    if (Result == nullptr)
