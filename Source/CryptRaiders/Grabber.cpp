@@ -6,6 +6,7 @@
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -49,6 +50,7 @@ void UGrabber::Release()
     FVector Start = GetComponentLocation();
   FVector End = Start + GetForwardVector() * MaxGrabDistance;
   DrawDebugLine(GetWorld(), Start, End, FColor::Red);
+  DrawDebugSphere(GetWorld(), End, 10, 10, FColor::Blue, false, 5);
 
   FCollisionShape Sphere = FCollisionShape::MakeSphere(GrabRadius);
   FHitResult HitResult;
