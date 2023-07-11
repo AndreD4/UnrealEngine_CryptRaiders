@@ -45,7 +45,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
    
 }
 
-void UGrabber::Release()
+void UGrabber::Grab()
 {
     FVector Start = GetComponentLocation();
   FVector End = Start + GetForwardVector() * MaxGrabDistance;
@@ -76,10 +76,7 @@ void UGrabber::Release()
     }
 }
 
-void UGrabber::Grab()
-{
-  UE_LOG(LogTemp, Display, TEXT("Grab"));
-}
+
 
 
 
