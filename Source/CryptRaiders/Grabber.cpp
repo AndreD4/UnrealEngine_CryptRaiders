@@ -47,7 +47,13 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::Grab()
 {
-    FVector Start = GetComponentLocation();
+  UPhysicsHandleComponent* PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+  if(PhysicsHandle == nullptr)
+  {
+    return;
+  }
+
+  FVector Start = GetComponentLocation();
   FVector End = Start + GetForwardVector() * MaxGrabDistance;
   DrawDebugLine(GetWorld(), Start, End, FColor::Red);
   DrawDebugSphere(GetWorld(), End, 10, 10, FColor::Blue, false, 5);
