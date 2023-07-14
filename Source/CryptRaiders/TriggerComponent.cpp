@@ -42,9 +42,9 @@ void UTriggerComponent::SetMover(UMover* NewMover)
 
 AActor* UTriggerComponent::GetAcceptableActor() const
 {
-  TArray<AActor *> Actors;
+  TArray<AActor* > Actors;
   GetOverlappingActors(Actors);
-  for (AActor *Actor : Actors)
+  for (AActor* Actor : Actors)
   {
     if (Actor->ActorHasTag(AcceptableActorTag))
     {
