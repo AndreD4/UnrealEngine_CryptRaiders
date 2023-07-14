@@ -7,14 +7,14 @@ UTriggerComponent::UTriggerComponent()
 {
     PrimaryComponentTick.bCanEverTick = true;
 
-    UE_LOG(LogTemp, Display, TEXT("Constructing"));
+  UE_LOG(LogTemp, Display, TEXT("Constructing"));
 }
 
 void UTriggerComponent::BeginPlay()
 {
   Super::BeginPlay();
   
-  UE_LOG(LogTemp, Display, TEXT("Trigger Component Alive"));
+ 
 }
 
 
@@ -22,5 +22,13 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
   Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-  
+  TArray<AActor*> Actors;
+  GetOverlappingActors(Actors);
+
+  if(Actors.Num() > 0 )
+  {
+    FString ActorName = Actors[0]->GetActorNameOrLabel();
+    UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *ActorName);
+  }
+
 }
