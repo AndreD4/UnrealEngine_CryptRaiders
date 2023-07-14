@@ -29,4 +29,6 @@ private:
     UPROPERTY(EditAnywhere)
     FName AcceptableActorTag;
 
+    AActor* GetAcceptableActor() const;
+
 };
