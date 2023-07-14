@@ -26,11 +26,11 @@ void UTriggerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FAct
   GetOverlappingActors(Actors);
 
   int32 index = 0;
-  while (index < Actors.Num())
+
+  for (int32 i = 0; i < Actors.Num(); i++)
   {
-    FString ActorName = Actors[index]->GetActorNameOrLabel();
+    FString ActorName = Actors[i]->GetActorNameOrLabel();
     UE_LOG(LogTemp, Display, TEXT("Overlapping: %s"), *ActorName);
-    ++index;
   }
 
 }
