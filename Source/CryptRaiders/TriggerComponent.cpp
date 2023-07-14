@@ -3,6 +3,11 @@
 
 #include "TriggerComponent.h"
 
+UTriggerComponent::UTriggerComponent()
+{
+    PrimaryComponentTick.bCanEverTick = true;
+}
+
 void UTriggerComponent::BeginPlay()
 {
   Super::BeginPlay();

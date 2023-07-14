@@ -14,6 +14,9 @@ class CRYPTRAIDERS_API UTriggerComponent : public UBoxComponent
 {
 	GENERATED_BODY()
 
+public:
+    UTriggerComponent();
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
